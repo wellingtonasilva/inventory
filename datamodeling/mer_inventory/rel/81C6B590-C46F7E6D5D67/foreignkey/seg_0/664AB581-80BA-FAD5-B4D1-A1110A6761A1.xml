@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="664AB581-80BA-FAD5-B4D1-A1110A6761A1" containerWithKeyObject="B976E8F9-1BA2-BBD2-D46E-7FB0014E70EE" localFKIndex="03E52C95-B0EB-28A6-414D-682029C9BF98" name="danfe_item_danfe_FK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:56:30 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>892D6902-CD2D-92BE-4AE7-8254C0479FFE</referredTableID>
+<keyObject>48A7C878-11F7-E077-D37B-813F198E4179</keyObject>
+<referredKeyID>48A7C878-11F7-E077-D37B-813F198E4179</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

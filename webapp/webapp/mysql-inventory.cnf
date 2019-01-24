@@ -1,0 +1,8 @@
+[client]
+database = inventory
+user = root
+password = root
+default-character-set = utf8
+
+
+#sudo docker run --name inventory-mysql -v ~/wsilva/desenvolvimento/mysql/inventory:/var/lib/mysql -e MYSQL_DATABASE=inventory -e MYSQL_USER=root -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:5.7

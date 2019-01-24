@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD4ABE3E-C72F-A1AD-EEC8-04957E092B2E" name="android_version">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 15:19:43 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="advr_id" id="E2950940-6207-B4AB-7F15-FC0446BA6935">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 15:20:24 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="advr_dsversion" id="5C9BA321-7F76-8C96-B39E-2E44D0CE3EE1">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 15:20:24 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2432F2FE-EC3F-5653-62BD-4927B2A1F362" name="android_version_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 15:20:24 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2950940-6207-B4AB-7F15-FC0446BA6935"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

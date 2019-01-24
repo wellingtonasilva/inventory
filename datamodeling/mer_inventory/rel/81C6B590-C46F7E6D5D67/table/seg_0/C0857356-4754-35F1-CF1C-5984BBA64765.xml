@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0857356-4754-35F1-CF1C-5984BBA64765" name="build">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 14:13:07 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="buld_id" id="89137A9E-6B3F-A347-5B45-69D819A5DFDB">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 14:13:23 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="buil_nmbuild" id="674CDC7E-FB37-9771-19AC-7BAF6F26EF77">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 14:13:39 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF999D86-7954-DFC4-51C9-4354D2D2F3E5" name="build_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 14:13:23 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89137A9E-6B3F-A347-5B45-69D819A5DFDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

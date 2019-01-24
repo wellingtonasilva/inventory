@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="892D6902-CD2D-92BE-4AE7-8254C0479FFE" name="danfe">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:54:27 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="danf_id" id="2A21F9C2-9F93-4962-B9A9-5186DF962959">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:54:48 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="danf_nnnotafiscal" id="41AE2BEA-10AC-8011-5A88-12EFB4BAE42D">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:55:03 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="danf_dtemissao" id="F78A6244-7D23-7945-3663-1AE349F159CD">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:55:16 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="danf_dtentrada" id="94671EE1-F8D7-6FFE-099B-F8E1F221DE18">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:55:27 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_identrada" id="DCFB62E0-264E-03CB-EDBF-BDAF14376A91">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:55:45 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B3131B6-7AB7-4C47-7625-235AC6F8E68F" referredColumn="48C99ED0-966D-4CF0-EF98-37116BCC444C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48A7C878-11F7-E077-D37B-813F198E4179" name="danfe_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:54:48 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A21F9C2-9F93-4962-B9A9-5186DF962959"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="386ED42B-9514-00DD-5752-0959A76BBBEA" name="danfe_auth_user_FK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:55:45 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCFB62E0-264E-03CB-EDBF-BDAF14376A91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

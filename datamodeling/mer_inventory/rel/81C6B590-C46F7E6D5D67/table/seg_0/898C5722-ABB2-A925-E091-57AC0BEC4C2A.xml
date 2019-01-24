@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="898C5722-ABB2-A925-E091-57AC0BEC4C2A" name="device_status">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 15:32:34 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="devs_id" id="2872AD23-8986-0C57-DD63-6649EDA8B6CF">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 15:33:10 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="devs_dsstatus" id="1A976531-8DC2-EF80-7344-ABBF26C2AAD6">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 15:33:10 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEF9D8BA-989A-2C0A-85A4-C0D059893408" name="device_status_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 15:33:10 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2872AD23-8986-0C57-DD63-6649EDA8B6CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

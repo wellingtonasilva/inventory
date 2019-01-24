@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDF32DEB-6B69-1AD9-E760-19B5438196CD" name="team">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 13:59:44 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="team_id" id="4C368477-E0E2-5E8E-C60A-FD16360339EC">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 14:00:02 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_dsteam" id="27C761DD-B5E7-43F2-259F-E4A9F20E5D1C">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 14:01:25 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18118E3B-C525-1778-8E16-CE690A954516" name="team_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 14:01:05 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C368477-E0E2-5E8E-C60A-FD16360339EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

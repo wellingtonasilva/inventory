@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BAF1F0F-DAA2-A52B-CD5E-3E413861CEC1" containerWithKeyObject="51F4EF3A-5B0D-B2A8-80C0-26FFC8240243" localFKIndex="DB184975-287E-CA43-BE7F-939F585E758F" name="device_android_version_FK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 15:25:11 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD4ABE3E-C72F-A1AD-EEC8-04957E092B2E</referredTableID>
+<keyObject>2432F2FE-EC3F-5653-62BD-4927B2A1F362</keyObject>
+<referredKeyID>2432F2FE-EC3F-5653-62BD-4927B2A1F362</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

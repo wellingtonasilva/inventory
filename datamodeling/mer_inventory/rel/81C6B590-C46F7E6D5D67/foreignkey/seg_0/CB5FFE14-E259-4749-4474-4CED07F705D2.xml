@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB5FFE14-E259-4749-4474-4CED07F705D2" containerWithKeyObject="7F2591C7-74E8-BC29-1A0E-9DBA92F6E836" localFKIndex="C0D2FB80-7361-EB16-67B4-5FBADB33E5EF" name="sim_card_carrier_FK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-23 23:43:28 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>41966C21-2079-ACBE-4C02-E5FE44EF29A6</referredTableID>
+<keyObject>5B5F1723-C35D-56C6-8E52-DD02CD6AF993</keyObject>
+<referredKeyID>5B5F1723-C35D-56C6-8E52-DD02CD6AF993</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

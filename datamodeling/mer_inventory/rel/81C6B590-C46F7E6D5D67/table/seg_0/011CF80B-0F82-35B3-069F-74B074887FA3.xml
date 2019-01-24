@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="011CF80B-0F82-35B3-069F-74B074887FA3" name="accessory_type">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 16:02:15 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="acty_id" id="EE9158DB-A8F8-9A4A-A22C-63425CB3862A">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 16:02:45 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acty_dsacessorytype" id="34731E2B-F4DC-724F-7539-9C3BE6F0AEE3">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 16:02:45 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0ECDD35A-7210-C079-85A8-C747B5173EF8" name="accessory_type_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2019-01-19 16:02:45 UTC</createdTime>
+<ownerDesignName>mer_inventory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE9158DB-A8F8-9A4A-A22C-63425CB3862A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
